@@ -178,6 +178,7 @@ color: white;
 }
 
 /* media query for title section adjustment on mobile screen */
+/*media query is required to  adjust site content according to resolution of screen*/
 @media screen and (max-width: 992px){
    #title{
     text-align: center;
