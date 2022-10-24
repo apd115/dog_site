@@ -1,0 +1,189 @@
+.body{
+  font-family: 'Montserrat';
+
+}
+/*--------------- headings------------ */
+/* h2 headings */
+.section_headings{
+  font-family: 'Poppins', sans-serif;
+  font-size:2.5rem ;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+h3{
+  font-family: 'Montserrat';
+  font-weight: 700;
+}
+
+/*----------------------------- top section -------------------------------*/
+.text_mine{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+
+#title{
+  background-color: #ff4c68;
+  color: white;
+ /* margin-bottom: 100px; */
+
+}
+
+.container-fluid{
+  padding: 3% 15% 10%;
+}
+
+
+
+/*--------- navigation bar -------------*/
+.navbar{
+  padding: 0 0 4.5rem;
+}
+.navbar-brand{
+  font-family:'ubuntu';
+  font-weight:'bold';
+  font-size: 2.5rem;
+}
+
+.nav-item{
+  padding: 0px 18px;
+}
+
+.nav-link{
+  font-size: 1.2rem;
+  font-family: 'Montserrat';
+  font-weight: 'lighter';
+}
+/* download buttons */
+.dwnld_btn_text{
+  color: white;
+}
+.Download_button{
+  margin: 7% 3% 5% 0;
+}
+/*--- phone image---- */
+.title_img{
+  width: 60%;
+  position: absolute;
+
+
+
+  right:20%;
+
+}
+
+.transform{
+  transform: rotate(25deg);
+}
+/* --------------------------------Features----------------------------- */
+#features{
+  padding: 7% 15%;
+  background-color: white;
+  position:relative;
+  z-index: 1;
+
+}
+.feature_box{
+  text-align: center;
+  padding: 5%;
+
+}
+
+p{
+  color: #8f8f8f;
+}
+
+/* ------icons----------- */
+.My_icon{
+  color: #Ef8172;
+  margin-bottom: 1rem;
+}
+.My_icon:hover{
+  color: #ff4c68;
+}
+/* ---------------------------testimonials------------------------------- */
+#testimonials{
+text-align: center;
+background-color: #ef8172;
+color: white;
+}
+.carousel-item{
+  padding:7% 15%;
+}
+
+.carousel_img{
+  width: 15%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+#press
+{
+  text-align: center;
+  background-color: #ef8172;
+  padding-bottom: 5%;
+}
+.press_img{
+  width: 15%;
+  padding: 0 1%;
+  margin: 0 3% 0 3%;
+}
+
+/*---------------------- --------------pricing---------------------------- */
+#pricing{
+  padding: 100px;
+  text-align: center;
+}
+.pricing_column{
+  padding: 3% 2%;
+}
+
+
+
+/* -----------------------------------cta------------------------------ */
+#cta{
+  background-color: #ff4c68;
+  text-align: center;
+  padding: 5% 0 5%;
+
+}
+
+ .cta_heading{
+  font-size: 3rem;
+  margin: 0 0 4%;
+  color: white;
+  font-weight:normal;
+}
+
+.cont_fluid{
+  padding: 5% 10% 5%;
+}
+
+.cta_buttons{
+  margin: 0 1% 0;
+}
+/* -------------------------------footer -------------------------------*/
+#footer{
+  padding: 5% 0 5%;
+  text-align: center;
+}
+.social_media{
+  margin: 2% 1% 2%;
+}
+
+.footer_fluid{
+  padding: 2% 15% 2%;
+}
+
+/* media query for title section adjustment on mobile screen */
+@media screen and (max-width: 992px){
+   #title{
+    text-align: center;
+  }
+  .title_img{
+   position: static;
+   transform: rotate(0);
+ }
+}
